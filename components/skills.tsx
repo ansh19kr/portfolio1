@@ -5,9 +5,9 @@ import SectionHeading from "./section-heading";
 import { useSectionInView } from "@/lib/hooks";
 
 const groups = [
-  ["Programming", ["Python", "SQL", "JavaScript", "Bash"]],
+  ["Programming", ["Python", "SQL", "JavaScript", "Java" "Bash"]],
   ["Backend", ["Django", "Flask", "FastAPI", "REST APIs"]],
-  ["GenAI / LLM", ["LLM APIs", "Prompt Engineering", "RAG", "Embeddings", "LangChain", "LangGraph"]],
+  ["GenAI ", [ "Prompt Engineering", "RAG", "Embeddings", "LangChain", "LangGraph"]],
   ["Databases", ["MySQL", "PostgreSQL", "Vector Databases"]],
   ["Cloud / DevOps", ["AWS", "Docker", "Git", "GitHub"]],
   ["Linux", ["Linux CLI", "Bash Scripting", "SSH", "Systemd", "Networking", "Logs"]],
