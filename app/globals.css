@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+  --bg: #050b14;
+  --panel: rgba(7, 20, 21, 0.82);
+  --panel-strong: #07162b;
+  --border: rgba(45, 212, 191, 0.22);
+  --accent: #60a5fa;
+  --muted: #8ca3a2;
+}
+
+html {
+  --line-color: rgba(45, 212, 191, 0.24);
+  scroll-behavior: smooth;
+  background: var(--bg);
+}
+
+body {
+  background:
+    radial-gradient(circle at 75% 0%, rgba(20, 184, 166, 0.10), transparent 34rem),
+    radial-gradient(circle at 10% 25%, rgba(6, 78, 59, 0.16), transparent 38rem),
+    #050b14;
+}
+
+::selection {
+  background: rgba(45, 212, 191, 0.28);
+  color: #ecfeff;
+}
+
+.terminal-grid {
+  background-image:
+    linear-gradient(rgba(45, 212, 191, 0.045) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(45, 212, 191, 0.045) 1px, transparent 1px);
+  background-size: 42px 42px;
+}
+
+.terminal-panel {
+  background: linear-gradient(145deg, rgba(7, 25, 26, 0.94), rgba(4, 13, 14, 0.92));
+  border: 1px solid var(--border);
+  box-shadow: 0 0 60px rgba(20, 184, 166, 0.055);
+}
+
+.terminal-glow {
+  text-shadow: 0 0 18px rgba(45, 212, 191, 0.35);
+}
+
+.terminal-border {
+  border: 1px solid var(--border);
+}
+
+.borderBlack {
+  @apply border border-white/10;
+}
