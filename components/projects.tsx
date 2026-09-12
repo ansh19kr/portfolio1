@@ -29,7 +29,7 @@ const Project = ({ title, description, tags, imageUrl, projectUrl }: ProjectProp
           <h3 className="text-xl font-semibold text-white">{title}</h3>
           <p className="mt-2 text-sm leading-6 text-white/55">{description}</p>
           <div className="mt-4 flex flex-wrap gap-2">
-            {tags.map((tag, i) => <span key={`${title}-${i}`} className="rounded-md border border-white/10 bg-white/[0.035] px-2 py-1 font-mono text-[10px] text-white/55">{tag}</span>)}
+            {tags.map((tag, i) => <span key={`${title}-${i}`} className="rounded-md border border-white/10 bg-white/[0.035] px-2 py-1 font-mono text-[10px] text-white/55 transition-all duration-200 group-hover:border-blue-400/25 group-hover:text-blue-200">{tag}</span>)}
           </div>
           <p className="mt-5 font-mono text-xs text-blue-300 transition-colors group-hover:text-blue-200">View project →</p>
         </div>

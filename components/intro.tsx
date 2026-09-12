@@ -20,7 +20,7 @@ const Intro = () => {
         <div className="mb-8 flex items-center gap-2 border-b border-white/10 pb-4 font-mono text-xs text-white/40">
           <span className="h-3 w-3 rounded-full bg-red-400/70" />
           <span className="h-3 w-3 rounded-full bg-yellow-400/70" />
-          <span className="h-3 w-3 rounded-full bg-emerald-400/70" />
+          <span className="h-3 w-3 rounded-full bg-blue-400/70" />
           <span className="ml-3">ansh@portfolio:~</span>
         </div>
 
@@ -39,7 +39,7 @@ const Intro = () => {
             <p className="mt-4 text-xl font-semibold text-blue-300 sm:text-2xl">
               Python Developer <span className="text-white/30">|</span> Generative AI <span className="text-white/30">|</span> AI Agents <span className="text-white/30">|</span> Linux
             </p>
-            <p className="mt-3 font-mono text-sm text-emerald-300">Linux Administrator @ Wipro</p>
+            <p className="mt-3 font-mono text-sm text-blue-300">Linux Administrator @ Wipro</p>
             <p className="mt-5 max-w-2xl text-base leading-7 text-white/65">
               I build practical applications with Python, LLMs, RAG, AI agents and modern backend technologies while working with Linux and enterprise IT systems.
             </p>
@@ -56,7 +56,7 @@ const Intro = () => {
             </div>
           </div>
 
-          <div className="terminal-panel rounded-xl p-5 font-mono text-sm leading-7 text-emerald-300">
+          <div className="terminal-panel rounded-xl p-5 font-mono text-sm leading-7 text-blue-300">
             <div className="mb-4 flex justify-between text-xs text-white/30"><span>terminal</span><span>bash</span></div>
             <p><span className="text-blue-300">$</span> cat skills.txt</p>
             <p className="text-white/70">Python</p>
@@ -64,7 +64,7 @@ const Intro = () => {
             <p className="text-white/70">LLMs | RAG | LangChain | LangGraph</p>
             <p className="text-white/70">Linux | Bash | AWS | Docker</p>
             <p className="mt-4"><span className="text-blue-300">$</span> status</p>
-            <p className="text-emerald-300">OPEN_TO_WORK = true</p>
+            <p className="text-blue-300">OPEN_TO_WORK = true</p>
             <p className="mt-4"><span className="text-blue-300">$</span> ./build_future.sh</p>
             <p className="text-white/45">building → learning → shipping</p>
             <span className="mt-2 inline-block h-4 w-2 animate-pulse bg-blue-400" />

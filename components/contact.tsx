@@ -125,7 +125,7 @@ const Contact = () => {
       <SectionHeading>My contact</SectionHeading>
       <p className="-mt-6 text-white/55">
         Please contact me directly at my{" "}
-        <Link className="underline" href={`mailto:${EXTRA_LINKS.email}`}>
+        <Link className="underline transition-colors hover:text-blue-300" href={`mailto:${EXTRA_LINKS.email}`}>
           e-mail
         </Link>{" "}
         or through this form.

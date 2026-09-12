@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700">
+<defs><linearGradient id="g" x1="0" x2="1"><stop stop-color="#071b3d"/><stop offset="1" stop-color="#0b4bb3"/></linearGradient><filter id="glow"><feGaussianBlur stdDeviation="10" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<rect width="1200" height="700" fill="#030913"/><rect x="30" y="30" width="1140" height="640" rx="28" fill="url(#g)" opacity=".9"/>
+<g opacity=".15" stroke="#60a5fa"><path d="M70 150h1060M70 220h1060M70 290h1060M70 360h1060M70 430h1060M70 500h1060"/><path d="M150 70v560M300 70v560M450 70v560M600 70v560M750 70v560M900 70v560M1050 70v560"/></g>
+<circle cx="600" cy="300" r="118" fill="#07162f" stroke="#38bdf8" stroke-width="5" filter="url(#glow)"/><rect x="535" y="245" width="130" height="105" rx="28" fill="#0d2e60" stroke="#93c5fd" stroke-width="4"/><circle cx="570" cy="292" r="12" fill="#60a5fa"/><circle cx="630" cy="292" r="12" fill="#60a5fa"/><path d="M570 325q30 22 60 0" fill="none" stroke="#bfdbfe" stroke-width="6" stroke-linecap="round"/>
+<path d="M600 182v-42M470 300H330M730 300h140M520 390l-100 100M680 390l100 100" stroke="#60a5fa" stroke-width="5"/><circle cx="330" cy="300" r="18" fill="#0ea5e9"/><circle cx="870" cy="300" r="18" fill="#0ea5e9"/><circle cx="420" cy="490" r="18" fill="#0ea5e9"/><circle cx="780" cy="490" r="18" fill="#0ea5e9"/>
+<text x="70" y="105" fill="#93c5fd" font-family="monospace" font-size="25">AI IT SUPPORT AGENT</text><text x="70" y="610" fill="white" font-family="Arial" font-size="38" font-weight="700">Python • LangGraph • LLM • Linux</text>
+</svg>

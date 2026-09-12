@@ -3,7 +3,6 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaWordpress } from "react-icons/fa";
 import movieImg from "@/public/movie.jpg";
 import movies2Img from "@/public/movies2.jpg";
-import comingImg from "@/public/coming.jpg";
 
 export const LINKS = [
   { name: "Home", hash: "#home" },
@@ -41,10 +40,31 @@ export const EXPERIENCES_DATA = [
 
 export const PROJECTS_DATA = [
   {
+    title: "GenAI IT Support Agent",
+    description: "AI agent concept for diagnosing common IT and Linux issues by combining Python, LLM reasoning and system tools for disk, memory, process and network troubleshooting.",
+    tags: ["Python", "LangGraph", "LLM", "Linux"],
+    imageUrl: "/genai-support-agent.svg",
+    projectUrl: "https://github.com/ansh19kr",
+  },
+  {
+    title: "RAG Document Assistant",
+    description: "Retrieval-augmented document Q&A application concept using embeddings, vector search and an LLM to provide grounded answers from uploaded documents.",
+    tags: ["Python", "RAG", "LangChain", "FastAPI"],
+    imageUrl: "/rag-document-assistant.svg",
+    projectUrl: "https://github.com/ansh19kr",
+  },
+  {
+    title: "Linux Server Monitor",
+    description: "Python and Bash monitoring tool concept for CPU, memory, disk, processes, services and logs, with AWS and API integration for production-style monitoring.",
+    tags: ["Python", "Linux", "Bash", "AWS"],
+    imageUrl: "/linux-server-monitor.svg",
+    projectUrl: "https://github.com/ansh19kr",
+  },
+  {
     title: "AI-Powered Resume Screener",
-    description: "Python application that analyzes resumes against job descriptions and helps identify relevant skills and matching areas. A strong foundation for expanding into LLM and RAG-based recruitment tooling.",
+    description: "Python application that analyzes resumes against job descriptions and identifies relevant skills and matching areas, providing a foundation for LLM and RAG-based recruitment tooling.",
     tags: ["Python", "Django", "AI", "NLP", "MySQL"],
-    imageUrl: comingImg,
+    imageUrl: "/coming.jpg",
     projectUrl: "https://github.com/ansh19kr/AI-Powered-Resume-Screener",
   },
   {
@@ -60,27 +80,6 @@ export const PROJECTS_DATA = [
     tags: ["Python", "Pandas", "NumPy", "Seaborn"],
     imageUrl: movies2Img,
     projectUrl: "https://github.com/ansh19kr/DA-project1",
-  },
-  {
-    title: "GenAI IT Support Agent",
-    description: "Planned AI-agent project combining Python, LLMs and Linux tools to diagnose common system issues such as disk, memory, process and network problems.",
-    tags: ["Python", "LangGraph", "LLM", "Linux"],
-    imageUrl: comingImg,
-    projectUrl: "https://github.com/ansh19kr",
-  },
-  {
-    title: "RAG Document Assistant",
-    description: "Planned document Q&A application using embeddings, retrieval and an LLM to answer questions from uploaded documents with grounded responses.",
-    tags: ["Python", "RAG", "LangChain", "FastAPI"],
-    imageUrl: comingImg,
-    projectUrl: "https://github.com/ansh19kr",
-  },
-  {
-    title: "Linux Server Monitor",
-    description: "Planned Python and Bash monitoring tool for CPU, memory, disk, processes, services and logs, with a future API layer for remote monitoring.",
-    tags: ["Python", "Linux", "Bash", "AWS"],
-    imageUrl: comingImg,
-    projectUrl: "https://github.com/ansh19kr",
   },
 ] as const;
 
